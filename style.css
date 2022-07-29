@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300;600;700&family=Orbitron:wght@400;800&family=Oswald:wght@200;700&family=Poppins:ital,wght@0,200;1,400&family=Roboto:wght@100;300;400;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+  :root{
+      --purpule: #5A20CB;
+      --blue : #120E43;
+
+  }
+
+.navbar{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    vertical-align: top;
+  }
+  .logo{
+    margin-left: 50px;
+    width: 100px;
+  }
+  .list{
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: hsl(0, 0%, 82%);
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    width: 900px;
+    color: #666255;
+    justify-content: left;
+    justify-content: space-around;
+    /* margin-left: 40px; */
+    font-size: 15px;
+    /* align-items: baseline; */
+    margin-left: 100px;
+  }
+  li.list-item{
+    margin-left: 100px;
+  }
+  li.list-item:hover{
+    cursor: pointer;
+    color: var(--blue);
+    font-size: 16px;
+  }
+  ul .list-item{
+    margin-top: -30px;
+  }
+  .button-group{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 500px;
+
+  }
+  .button-group button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+  }
+  .navbar-container div img{
+    /* position: absolute;   */
+    width: 100px;
+      display: inline;
+      margin-top: 50px;
+      margin-left: 50px;
+
+  }
+  div.banner-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div.thumbnail img{
+    margin-top: 50px;
+    z-index: -1;
+    height: 500px;
+  }
+  div h1,
+  p{
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  h1.heading-text{
+    font-family: "Montserrat";
+    font-size: 80px;
+    margin-left: 70px;
+    /* width: 700px;
+    height: 200px; */
+    display: inline-block;
+    color: var(--blue);
+  }
+  .heading-text span{
+    color: var(--purpule);
+  }
+  p.description{
+    margin-left: 100px;
+    /* border: 2px solid black; */
+    width: 400px;
+    font-family: "Montserrat";
+  }
+  button.nav-button{
+    margin-top: 50px;
+    margin-left: 170px;
+    border: 1px solid var(--purpule);
+  }
+
+  .nav-button{
+    background-color: var(--purpule);
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    /* font-size: 20px; */
+    border-radius: 7px;
+  }
+  div .nav-button.btn{
+    font-weight: 700;
+    font-size: 20px;
+  }
